@@ -1,10 +1,17 @@
 #include <iostream>
 
-extern bool descending(int array[], int n);
+bool descending(int array[], int n) {
+    int current = array[0];
+    bool descending = false;
 
-int main() {
-    int array [5] = {5,4,3,2,1};
-    std::cout << descending(array, 5) << std::endl;
-
-    return 0;
+    for (int i = 1; i < n; i++) {
+        if (current > array[i]) {
+            current = array[i];
+            descending = true;
+        } else {
+            descending = false;
+            break;
+        }
+    }
+    return descending;
 }

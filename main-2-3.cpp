@@ -1,15 +1,9 @@
 #include <iostream>
 
-int sum_array(int array[], int n) {
-    int result = 0;
-    if (n < 1) {
-    }
-    if (n >= 1) {
-        int total = 0;
-        for (int i = 0; i < n; i++) {
-            total = total + array[i];
-        }
-        result = total;
-    }
-    return result;
+extern void twofivenine(int array[], int n);
+
+int main() {
+    int array [10] = {1,2,3,4,5,6,7,8,9,9} ;
+    twofivenine(array, 10);
+    return 0;
 }

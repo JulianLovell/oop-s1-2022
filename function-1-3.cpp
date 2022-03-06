@@ -1,12 +1,15 @@
 #include <iostream>
-using namespace std;
+#include <vector>
 
-int count(int array[], int n, int number){
-   int freq = 0;
-   for(int i=0; i<number; i++){
-      if(n==array[i]){
-         freq++;
+int count(int array[], int n, int number) {
+   int count = 0;
+   for(int i = 0; i < n; i++){
+      if (array[i] == number) {
+         count = count + 1;
       }
    }
-   return freq;
+   if (n < sizeof(array)) {
+      count = 0;
+   }
+   return count;
 }

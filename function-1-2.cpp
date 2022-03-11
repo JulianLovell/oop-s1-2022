@@ -1,18 +1,23 @@
 #include <iostream>
 
-int diagonal(int array[4][4]) {
+int identity(int array[10][10]) {
 
-    int diagonal = 0;
+    int identity = 1;
 
-for (int i = 0; i < 4; i++) {
+for (int i = 0; i < 10; i++) {
 
-    for (int j = 0; j < 4; j++) {
+    for (int j = 0; j < 10; j++) {
 
-        if (i = j) {
-            diagonal == diagonal + array[i][j];
-
+        if (i != j && array[i][j] != 0) {
+            identity = 0;
         }
 
-    return diagonal;
+            else if (i == j && array[i][j] != 1) {
+                identity = 0;
+            }
+    }
+}
+
+return identity;
 
 }

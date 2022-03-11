@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern int diagonal(int array[4][4]);
+extern int identity(int array[10][10]);
 
 int main() {
 

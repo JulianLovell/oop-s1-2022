@@ -6,9 +6,8 @@ void printer(int array[10][10]) {
 
     for (i=0; i < 10; i++) {
 
-        std::cout << array[i];
+        std::cout << array[i] << std::endl;
 
     }
-    
 
 }

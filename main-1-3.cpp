@@ -10,6 +10,6 @@ int main(){
 
     int new_array[3];
 
-    cypia(old_array, new_array, length);
+    cpyia(old_array, new_array, length);
 
 }

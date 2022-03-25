@@ -6,7 +6,7 @@ int main(){
 
     int length = 3;
 
-    int *ptr, old_array[3] = {1, 2, 3};
+    int old_array[3] = {1, 2, 3};
 
     int new_array[3];
 

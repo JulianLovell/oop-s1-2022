@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 
 extern void copy_2d_strings(std::string first[][2], std::string second[][2], int n);
 

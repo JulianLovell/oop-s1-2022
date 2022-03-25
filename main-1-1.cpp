@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern void copy_2d_strings(std::string first[3][2], std::string second[3][2], int n);
+extern void copy_2d_strings(std::string first[][2], std::string second[][2], int n);
 
 int main(){
 

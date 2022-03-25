@@ -16,4 +16,6 @@ int main(){
 
     copy_2d_strings(first, second, n);
 
+return 0;
+
 }

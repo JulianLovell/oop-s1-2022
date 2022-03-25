@@ -12,4 +12,6 @@ int main(){
 
     cpyia(old_array, new_array, length);
 
+    return 0;
+
 }

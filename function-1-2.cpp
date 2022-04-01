@@ -58,4 +58,6 @@ int string lookup_month(int month){
 
     }
 
+    return 0;
+
 }

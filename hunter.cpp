@@ -2,6 +2,7 @@
 #include <string>
 
 #include "hunter.h"
+#include "Animal.h"
 
 using namespace std;
 

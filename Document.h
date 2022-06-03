@@ -13,7 +13,7 @@ class Document{
      Document(string t, string d, int n);
 
     void set_title (string t);
-    string get_title():
+    string get_title();
 
     void set_documentType(string d);
     string get_documentType();

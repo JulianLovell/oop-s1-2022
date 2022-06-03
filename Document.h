@@ -10,12 +10,14 @@ class Document{
      string documentType;
      int numPages;
 
-    void set_title (string _title);
+     Document(string t, string d, int n);
+
+    void set_title (string t);
     string get_title():
 
-    void set_documentType(string _documentType);
+    void set_documentType(string d);
     string get_documentType();
 
-    void set_numPages(int _numPages);
+    void set_numPages(int n);
     int get_numPages();
 };

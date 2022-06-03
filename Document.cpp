@@ -7,9 +7,9 @@ using namespace std;
 
 Document::Document(string t, string d, int n){
 
-  string title = t;
-  string documentType = d;
-  int numPages = n;
+  this->title = t;
+  this->documentType = d;
+  this->numPages = n;
 
 };
 

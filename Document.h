@@ -4,7 +4,7 @@
 using namespace std;
 
 class Document{
-    public:
+    protected:
 
      string title;
      string documentType;
